@@ -3,9 +3,8 @@ class Main {
     int[] carro = { 1000000, 40000, 16000, 46000, 17000 };
 
     int carroMaisBarato = 0;
-    int atual;
 
-    for (atual = 0; atual <= (carro.length -1); atual++) {
+    for (int atual = 0; atual <= (carro.length -1); atual++) {
       if (carro[atual] < carro[carroMaisBarato]) {
         carroMaisBarato = atual;
       }
