@@ -34,7 +34,7 @@ class Main {
   public static int analisarMenorPreco(Carro[] carro, int inicio, int quantidadeElementos) {
 
     int carroMaisBarato = quantidadeElementos -1;
-    quantidadeElementos = quantidadeElementos - 1;
+    quantidadeElementos = carro.length - 1;
 
     for (int carroSobAnalise = inicio; carroSobAnalise <= quantidadeElementos; carroSobAnalise++) {
 
